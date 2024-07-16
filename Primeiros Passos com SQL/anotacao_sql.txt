@@ -1,0 +1,43 @@
+==> CLASSIFICAÇÕES SQL
+* DDL - Data Definition Language
+Ex: 
+CREATE / DROP / ALTER
+INSERT / UPDATE / DELETE
+RENAME / TRUNCATE / MERGE
+
+- Usuário
+- Esquema
+- Statements = declaracao
+- Indexing = indexação
+
+* Data Manipulation Language
+EX:
+INSERT / UPDATE
+DELETE / MERGE
+
+* DCL - Data Control Language
+EX:
+GRANT / REVOKE
+
+* DQL - Data Query Language
+SELECT
+
+==> STATEMENT
+Stament = estado
+* Comando / instrução
+* Reconhecido pelo BD
+* Retorno: registro de dados
+
+==> Cláusulas SQL
+* Função -> instrução
+* Algumas são obrigatórias
+EX:
+SELECT * FROM table_name;
+
+--> tipos de cláusulas
+* SELECT
+* FROM
+* WHERE
+* ORDER BY
+* GROUP BY
+* HAVING

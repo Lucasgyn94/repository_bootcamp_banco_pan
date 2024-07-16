@@ -1,0 +1,29 @@
+==> ARVORES
+* Estrutura de dados bidimensional
+* Não linear
+* Contituída de nós que representam um modelo hierárquico
+	- Armazenam os dados com base em relações de dependências.
+* Listas, filas e Pilhas são estruturas lineares
+
+--> UTILIZAÇÃO
+* Sistemas de arquivos
+* Banco de dados
+* Interfaces Gráficas
+* Páginas web
+
+--> Características de uma Árvore Hierárquica
+- Nó
+- Raiz
+- Pai e Filho
+- Irmão
+- Nível de um nó (Posição hierárquica com relação a raiz)
+- Altura ou profundidade (grau máximo dos nós)
+- Folha ou nó terminal
+- Nó interno
+- Grau de um nó
+- Subárvore
+
+==> Arvoré Binária
+- Posição dos nós
+- Maiores à direita
+- menores à esquerda

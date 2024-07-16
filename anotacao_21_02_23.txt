@@ -1,0 +1,85 @@
+==> ATRIBUIÇÃO E REFERÊNCIA
+* As atribuições em java são por cópia de valor sempre;
+
+* Com tipo primitivo, copiamos o valor em memória
+
+* Com objetos copiamos o valor da referência em memória, sem duplicar o objeto.
+
+
+==> CONCEITO DE NÓ
+* Um nó em java e uma estrutura que armazena tanto a seu valor, quanto o valor do próximo nó.
+
+* A ultima referência de nó, apontamos pra nulo
+
+==> GENERICS EM JAVA
+Lista<String> minhaLista = new lista<>();
+
+public class Lista<T> {
+
+private T t;
+
+}
+
+o t é um tipo genérico.
+Generic é uma maneira de criar parâmetros para classes e definir tipos que podem ser substituídos em vários lugares do programa. Isso elimina o uso da classe Object para definirmos tipos que podem variar no decorrer do programa. Esta classe tem um método que retorna um array de qualquer tipo.
+
+-> EXEMPLO1
+* UNKNOWN WILDCARD
+
+public void imprimeLista(List<?> lista) { for(Object obj : lista){
+	System.out.println(obj);
+}}
+List<Aluno> minhaLista = new List<Aluno>();
+imprimeLista(minhaLista);
+
+* UpperBounded Wildcard
+// tem o curinga limitado por cima.
+Aceita da lista pessoa para baixo;
+
+public void imprimeLista(List<? extends Pessoa> listaPessoas) { for(Pessoa p : listaPessoas){
+	System.out.println(p);
+}}
+List<Aluno> minhaLista = new List<Aluno>();
+imprimeLista(minhaLista);
+
+
+* LowerBounded Wildcard
+// tem o curinga limitado por baixo. Só aceita da lista Pessoa pra cima.
+public void imprimeLista(List<? super Pessoa> listaPessoas) { for(Pessoa p : listaPessoas){
+	System.out.println(p);
+}}
+List<Aluno> minhaLista = new List<Aluno>();
+imprimeLista(minhaLista);
+
+==> PILHAS (LIFO)
+* Last in Firs Out
+* O último elemento que entra é o primeiro que sai
+
+--> MÉTODO TOP
+O topo
+Ex:
+$
+No meuNo = pilha.top();
+// esse código recebe a referência do topo da pilha
+
+--> MÉTODO POP
+retira a referência do ultimo no da pilha
+$
+No meuNo = pilha.pop();
+
+--> MÉTODO PUSH
+Empurra
+No meuNo = new No();
+meuNo.setInt(1);
+
+--> METODO ISEMPTY
+Verifica se a referência e nula
+$
+public boolean isEmpty(){
+	if (refNo == null) {
+		return true;
+	}
+	return false;
+}
+
+

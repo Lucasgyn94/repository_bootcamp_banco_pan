@@ -1,0 +1,25 @@
+$ COMANDO
+MATCH(todos) return todos;
+
+MATCH (patrick:Client {name: "Patrick"}) SET patrick:Client_Premium;
+
+MATCH(todos) return todos;
+
+MATCH (bob: Client {name: "Bob Esponha"}) SET bob.name = "Bob Esponja";
+
+MATCH (todos) return todos;
+
+MATCH (patrick: Client {name: "Patrick"}) SET patrick.age = 29;
+
+MATCH (bob: Cliente{name: "Bob Esponha"}) DELETE bob;
+
+MATCH (todos) return todos
+
+MATCH(lula:Client {name: "Lula Molusco"}) - [relacionamento: Bloqueado] - () DELETE relacionamento;
+
+MATCH (todos) return todos;
+
+
+MATCH (lula:Client{name:"Lula Molusco"}), (patrick:Client{name:"Patrick"}) CREATE(lula)-[:Bloqueado] -> (patrick)
+
+MATCH(todos) return todos;

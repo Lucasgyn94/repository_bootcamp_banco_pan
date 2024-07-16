@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b55cb6b4-074e-4522-83c6-6a53dbaf00d0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalInnovation/junit/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalInnovation/junit/GerenciadorDeConexaoComBancoDeDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalInnovation/junit/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalInnovation/junit/TransferenciaEntreContas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/one/digitalInnovation/junit/AfeterBeforeTeste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/one/digitalInnovation/junit/AssertionsTeste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/one/digitalInnovation/junit/AssumptionsTeste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/one/digitalInnovation/junit/CondicionaisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/one/digitalInnovation/junit/ContaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/one/digitalInnovation/junit/EscolhendoAOrdemTeste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/one/digitalInnovation/junit/ExceptionsTeste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/one/digitalInnovation/junit/PessoaTeste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/junit/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/junit/GerenciadorDeConexaoComBancoDeDados.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/junit/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/junit/TransferenciaEntreContas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/one/digitalInnovation/junit/PessoaTeste.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OIbFYQNrlHL0dEKvSUH1rHiCke" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="PessoaTeste.deveRetornarSeEhMaiorDeIdade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-exemplos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="one.digitalInnovation.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="one.digitalInnovation.junit" />
+      <option name="MAIN_CLASS_NAME" value="one.digitalInnovation.junit.PessoaTeste" />
+      <option name="METHOD_NAME" value="deveRetornarSeEhMaiorDeIdade" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PessoaTeste.deveRetornarSeEhMaiorDeIdade" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b55cb6b4-074e-4522-83c6-6a53dbaf00d0" name="Changes" comment="" />
+      <created>1681250941633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681250941633</updated>
+      <workItem from="1681250943396" duration="1649000" />
+      <workItem from="1682612928278" duration="111000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

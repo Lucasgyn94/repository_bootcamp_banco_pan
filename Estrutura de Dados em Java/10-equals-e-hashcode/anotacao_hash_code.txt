@@ -1,0 +1,3 @@
+equals = serve para comparação de igualdade entre objetos
+
+hashCode = melhora busca dos objetos

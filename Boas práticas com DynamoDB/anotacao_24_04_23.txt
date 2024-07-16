@@ -1,0 +1,5 @@
+Repositório para utilização dinamoDb na amazon ws
+
+Serviço utilizado
+Amazon DynamoDB
+Amazon CLI para execução em linha de comando

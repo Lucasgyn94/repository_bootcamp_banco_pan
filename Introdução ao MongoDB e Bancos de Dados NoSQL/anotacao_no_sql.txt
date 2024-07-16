@@ -1,0 +1,35 @@
+==> DIFERENÇAS BD Relacional x BD NoSQL
+
+--> Transações
+
+* BD Relacional
+- Atomicidade
+- Consistência
+- Isolamento
+- Durabilidade
+
+* BD NoSQL
+- Basically Available
+- Soft - State
+- Eventually Consistente
+
+--> Características e vantagens
+- Flexibilidade
+- Escalabilidade
+- Alta perfomance
+
+==> INTRODUÇÃO AO MONGODB
+
+* Document ==> Tupla / Registro
+* Collection ==> Tabela
+* Embedding / linking ==> Join
+
+-> Quando usar?
+- Grande volume de dados
+- Dados não necessariamente estruturados
+
+-> Quando não usar?
+- Necessidade de relacionamentos/ joins
+- Propriedades ACID e transações importantes
+- Curiosidade: Diversas entidades de pagamento não homologam sistemas cujos dados financeiros dos clientes não estejam em bancos de dados relacionais tradicionais;
+
