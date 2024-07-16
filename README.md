@@ -1,2 +1,2 @@
 # DETALHES
-Repositório contendo minhas anotação e códigos apreendidos durante o bootcamp da Take Blip
+Repositório contendo minhas anotação e códigos apreendidos durante o bootcamp do banco pan
